@@ -28,6 +28,8 @@
     };
     behaviors {
         mouse_scroll {
+            compatible = "zmk,behavior-sensor-mouse-scroll";
+            label = "MSC";
             #sensor-binding-cells = <2>;
         };
     };
