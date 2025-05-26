@@ -26,13 +26,6 @@
         , <&pro_micro_d 9 GPIO_ACTIVE_HIGH>
         ;
     };
-    behaviors {
-        mouse_scroll {
-            compatible = "zmk,behavior-sensor-mouse-scroll";
-            label = "MSC";
-            #sensor-binding-cells = <2>;
-        };
-    };
 };
 
 &middle_encoder {
